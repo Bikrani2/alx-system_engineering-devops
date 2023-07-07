@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "current working directory: %s\n" "/alx-system_engineering-devops/0x00-shell_basics"  
+{ cwd=$(pwd); echo "current working dir:$cwd"; }
