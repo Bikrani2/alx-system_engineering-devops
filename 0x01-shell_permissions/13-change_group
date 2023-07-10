@@ -1,2 +1,2 @@
 #!/bin/bash
-chown :$(getent group :school | cut -d: -f3) hello
+sudo chgrp school hello 
